@@ -17,11 +17,10 @@
 
     <Button
         android:id="@+id/helloBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/helloBtn"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="350dp"
-        tools:text="@string/helloBtn" />
+        tools:text="@string/helloBtn"
+        android:gravity="center_horizontal"/>
 
 </android.support.constraint.ConstraintLayout>
